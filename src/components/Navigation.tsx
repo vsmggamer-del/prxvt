@@ -37,14 +37,16 @@ export const Navigation = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <motion.div
+          <motion.a
+            href="/"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl font-bold tracking-tight"
+            className="flex items-center gap-2 text-xl font-bold tracking-tight"
           >
+            <img src="/favicon.png" alt="PRXVT" className="w-7 h-7" />
             PRXVT
-          </motion.div>
+          </motion.a>
 
           {/* Desktop Navigation Pill */}
           <div className="hidden md:flex nav-pill">
