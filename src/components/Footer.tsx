@@ -27,7 +27,10 @@ export const Footer = () => {
             viewport={{ once: true }}
             className="md:col-span-1"
           >
-            <div className="text-xl font-bold mb-4">PRXVT</div>
+            <div className="flex items-center gap-2 text-xl font-bold mb-4">
+              <img src="/favicon.png" alt="PRXVT" className="w-6 h-6" />
+              PRXVT
+            </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Privacy-first infrastructure for the agent economy.
             </p>
